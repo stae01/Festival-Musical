@@ -1,64 +1,183 @@
 body {
-    margin: 5;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    background: url('concierto-playa.jpg') center/cover no-repeat fixed;
+  margin: 5;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background: url("concierto-playa.jpg") center/cover no-repeat fixed;
 }
 
 .contenedor {
-    text-align: center;
+  text-align: center;
 }
 
 h2,
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .artists {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 80px;
-    height: fit-content;
-    gap: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 80px;
+  height: fit-content;
+  gap: 15px;
 }
 
 .artist {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 250px;
-    min-height: 350px;
-    padding: 15px;
-    background: url('https://plus.unsplash.com/premium_photo-1681558402429-9427dadca430?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FuZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D') center/cover no-repeat fixed;
-    border-radius: 10px;
-    justify-content: center;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  min-height: 350px;
+  padding: 15px;
+  background: url("   https://plus.unsplash.com/premium_photo-1681558402429-9427dadca430?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FuZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D")
+    center/cover no-repeat fixed;
+  border-radius: 10px;
+  justify-content: center;
+  gap: 5px;
 }
 
 .artist img {
-    display: block;
-    max-width: 100%;
-    border-radius: 8px;
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
 }
 
 .artist p {
-    margin-top: 20px;
-    font-weight: bold;
+  margin-top: 20px;
+  font-weight: bold;
 }
 
 .tabla {
-    margin: auto;
-    text-align: center;
-    background: url('https://t4.ftcdn.net/jpg/02/23/06/05/360_F_223060577_Up871tVFzW9s3J5y6ILNQnDiPeOOsBTC.jpg');
+  margin: auto;
+  text-align: center;
+  background: url("https://img.freepik.com/foto-gratis/fondo-arena-blanca-textura-espacio-copia_53876-106183.jpg?t=st=1740359275~exp=1740362875~hmac=fff53cceeec725b207c2e169f97b5f8c3d5861dde7b02833bfa7ba2af9c02c3e&w=1380");
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.tabla th, .table td{
-    font-style: bold;
-    color:rgb(0, 255, 221);
-    padding: 10px;
+.tabla th,
+.table td {
+  font-size: larger;
+  font-style: normal;
+  color: rgba(0, 140, 255, 0.923);
+  padding: 20px;
 }
 
+#secciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+  height: fit-content;
+  gap: 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#secciones h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000000;
+}
+
+#secciones img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#cartel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+  height: fit-content;
+  gap: 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#cartel h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #000000;
+}
+
+#cartel img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#formulario {
+  margin: auto;
+  background: rgb(240, 240, 240);
+  width: 80%;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#formulario h1 {
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.radios {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.radios label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+button {
+  width: 100%;
+  background: rgb(33, 83, 221);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(31, 13, 185);
+}
