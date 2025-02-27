@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-family: 'Audiowide', sans-serif;
+  font-family: "Audiowide", sans-serif;
   font-size: 40px;
   color: #f1c40f;
   text-align: center;
@@ -24,7 +24,7 @@ h1 {
 }
 
 .main-header p {
-  font-family: 'Audiowide', sans-serif;
+  font-family: "Audiowide", sans-serif;
 }
 
 .main-header {
@@ -45,7 +45,7 @@ h3 {
   text-align: center;
 }
 
-.day{
+.day {
   background-color: #17202a;
   padding: 10px 0px 0px 0px; /* Arriba, Derecha, Abajo, Izquierda */
   border-radius: 5px;
@@ -71,49 +71,53 @@ h3 {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 250px;
-  min-height: 350px;
+  width: 280px;
+  min-height: 280px;
   padding: 15px;
-  background: url("   https://plus.unsplash.com/premium_photo-1681558402429-9427dadca430?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FuZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D") center/cover no-repeat fixed;
+  background: url("   https://plus.unsplash.com/premium_photo-1681558402429-9427dadca430?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FuZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D")
+    center/cover no-repeat fixed;
   border-radius: 10px;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 5px;
+  position: relative; /*hacer que quede dentro del fondo*/
 }
 
 .artist img {
   display: block;
   max-width: 100%;
   border-radius: 8px;
+  width: 280px;
+  height: 200px;
+  object-fit: cover; /* Ajusta sin distorsionar */
+  border-radius: 8px;
 }
 
 .artist p {
-
   font-weight: bold;
   text-align: center;
   width: 280px;
   padding: 5px;
   bottom: -3px; /* Para que se sitúe justo donde comienza el fondo */
   left: 0;
-  font-family: 'Audiowide', sans-serif;
+  font-family: "Audiowide", sans-serif;
   color: #34495e;
 }
 
 .tabla {
   text-align: center;
-  background: rgba(0, 0, 0, 0.8); 
+  background: rgba(0, 0, 0, 0.8);
   padding: 20px;
   border-radius: 10px;
   max-width: 800px;
   margin: 0 auto;
   width: 100%;
-
 }
 
 .tabla th,
 .table td {
   font-size: larger;
   font-style: normal;
-  color: rgba(0, 140, 255, 0.923);
+  color: white;
   padding: 20px;
 }
 
@@ -133,7 +137,7 @@ h3 {
 #secciones h2 {
   margin-bottom: 20px;
   font-size: 24px;
-  color: #000000;
+  color: #98fb98;
 }
 
 #secciones img {
@@ -158,7 +162,7 @@ h3 {
 #cartel h2 {
   margin-bottom: 20px;
   font-size: 24px;
-  color: #FF1493;
+  color: #ff1493;
 }
 
 #cartel img {
@@ -175,11 +179,12 @@ h3 {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 #formulario h1 {
   margin-bottom: 30px;
-  color: #333;
+  color: #2e8b57;
   text-align: center;
 }
 
@@ -208,6 +213,7 @@ select {
   display: flex;
   gap: 10px;
   margin: 10px 0;
+  color: black;
 }
 
 .radios label {
@@ -222,12 +228,11 @@ button {
   color: white;
   margin-left: auto;
   display: block;
-  font-family: 'Audiowide', sans-serif;
-
+  font-family: "Audiowide", sans-serif;
 }
 
 button:hover {
-  background: rgb(31, 13, 185);
+  background: #edaa3e;
 }
 
 #descripcion {
@@ -266,15 +271,13 @@ button:hover {
   flex-direction: column;
 }
 
-#lineup h2{
+#lineup h2 {
   color: #3498db;
 }
 
-
 #tickets h2 {
-  color: #FF8C00;
+  color: #ff8c00;
   justify-content: center;
   position: absolute;
   top: -60px;
-
 }
