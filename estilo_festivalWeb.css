@@ -92,7 +92,6 @@ h3 {
   text-align: center;
   width: 280px;
   padding: 5px;
-  position: absolute;
   bottom: -3px; /* Para que se sitúe justo donde comienza el fondo */
   left: 0;
   font-family: 'Audiowide', sans-serif;
