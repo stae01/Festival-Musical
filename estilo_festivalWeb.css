@@ -79,6 +79,13 @@ h3 {
 .artist p {
   margin-top: 20px;
   font-weight: bold;
+  width: 280px;
+  padding: 5px;
+  position: absolute;
+  bottom: -3px; /* Para que se sitúe justo donde comienza el fondo */
+  left: 0;
+  font-family: 'Audiowide', sans-serif;
+  color: #34495e;
 }
 
 .tabla {
