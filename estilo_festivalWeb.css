@@ -45,6 +45,15 @@ h3 {
   text-align: center;
 }
 
+.day{
+  background-color: #17202a;
+  padding: 10px 0px 0px 0px; /* Arriba, Derecha, Abajo, Izquierda */
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .artists {
   display: flex;
   flex-direction: row;
