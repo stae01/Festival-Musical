@@ -8,31 +8,32 @@ body {
 
 .contenedor {
   text-align: center;
-    max-width: 800px;
-  background: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+  max-width: 800px;
+  background: rgba(0, 0, 0, 0.7);
+  /* Fondo negro semi-transparente */
   padding: 20px;
   border-radius: 10px;
 }
 
 h1 {
-    font-family: 'Audiowide', sans-serif;
-    font-size: 40px;
-    color: #f1c40f;
-    text-align: center;
-	font-weight: bold;
+  font-family: 'Audiowide', sans-serif;
+  font-size: 40px;
+  color: #f1c40f;
+  text-align: center;
+  font-weight: bold;
 }
 
-.main-header p{
-	font-family: 'Audiowide', sans-serif;
+.main-header p {
+  font-family: 'Audiowide', sans-serif;
 }
 
 .main-header {
-    background-color: #17202a;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-	width: 90%;
-	margin: 0 auto;
+  background-color: #17202a;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 h2 {
@@ -63,8 +64,7 @@ h3 {
   max-width: 250px;
   min-height: 350px;
   padding: 15px;
-  background: url("   https://plus.unsplash.com/premium_photo-1681558402429-9427dadca430?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FuZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D")
-    center/cover no-repeat fixed;
+  background: url("   https://plus.unsplash.com/premium_photo-1681558402429-9427dadca430?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2FuZCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D") center/cover no-repeat fixed;
   border-radius: 10px;
   justify-content: center;
   gap: 5px;
@@ -82,11 +82,14 @@ h3 {
 }
 
 .tabla {
-  margin: auto;
   text-align: center;
-  background: url("https://img.freepik.com/foto-gratis/fondo-arena-blanca-textura-espacio-copia_53876-106183.jpg?t=st=1740359275~exp=1740362875~hmac=fff53cceeec725b207c2e169f97b5f8c3d5861dde7b02833bfa7ba2af9c02c3e&w=1380");
+  background: rgba(0, 0, 0, 0.8); 
   padding: 20px;
   border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+
 }
 
 .tabla th,
@@ -197,15 +200,13 @@ select {
 }
 
 button {
-  width: 100%;
-  background: rgb(33, 83, 221);
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  margin-top: 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
+  width: 30%;
+  background: #f1c40f;
+  color: white;
+  margin-left: auto;
+  display: block;
+  font-family: 'Audiowide', sans-serif;
+
 }
 
 button:hover {
@@ -213,16 +214,47 @@ button:hover {
 }
 
 #descripcion {
-    background-image: url("concierto-playa.jpg"); 
-    background-size: 91.5%;
-	background-repeat: no-repeat;
-    background-position: center;
-	height: 500px;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url("concierto-playa.jpg");
+  background-size: 91.5%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terminos {
+  color: black;
+  font-weight: normal;
+}
+
+#tickets {
+  background-image: url("festival.jpg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+#tickets h2 {
+  color: #FF8C00;
+  justify-content: center;
+  position: absolute;
+  top: -60px;
+
 }
